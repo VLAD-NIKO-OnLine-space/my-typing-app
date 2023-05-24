@@ -1,0 +1,59 @@
+.startBtn{
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 800;
+    background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 400%;
+    color: #fff;
+    letter-spacing: 0.09em;
+    animation: gradient 5s linear infinite;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s linear;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    user-select: none;
+}
+
+.startBtn::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(-150%) skew(-30deg);
+  transition: 0.3s linear;
+  filter: blur(3px);
+  opacity: 0.3;
+}
+.startBtn:hover::before{
+  transform: translateX(130px) skew(-30deg); 
+}
+
+.startBtn:hover{
+  transform: scale(103%);
+}
+
+.startBtn:active{
+  transform: translateY(3px);
+}
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+}

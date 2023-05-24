@@ -1,0 +1,18 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    box-sizing: inherit;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.045em;
+    color: #fff;
+}
+
+h1{
+    margin: 0;
+}

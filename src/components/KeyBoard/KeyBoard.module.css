@@ -1,0 +1,79 @@
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+.keyboardRow{
+    gap: 10px;
+    display: flex;
+}
+
+.row1{
+    border: 1px solid rgba(250, 250, 250, 0.2);    
+    font-size: 18px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    opacity: 0.3;
+}
+
+.active{
+    background-color: #e85984;
+    border-radius: 5px;
+    border: 1px solid rgba(250, 250, 250, 0.2);    
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    animation: opacity 0.3s linear forwards;
+}
+
+@keyframes opacity {
+    0%{
+        background-color: #e85984;
+        opacity: 1;
+        transform: scale(113%);
+    }
+    100%{
+        opacity: 0.3;
+        transform: scale(100%);
+        background-color: transparent;
+
+    }
+}
+
+.row1Space{
+    font-size: 18px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 531px;
+    border: 1px solid rgba(250, 250, 250, 0.2);       
+    text-align: center;
+    opacity: 0.3;
+}
+
+.SpaceActive{
+    border: 1px solid rgba(250, 250, 250, 0.3);    
+    font-size: 18px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 531px;
+    text-align: center;
+    animation: opacity2 0.3s linear forwards;
+}
+
+@keyframes opacity2 {
+    0%{
+        background-color: #e85984;
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.3;
+        background-color: transparent;
+    }
+}
+

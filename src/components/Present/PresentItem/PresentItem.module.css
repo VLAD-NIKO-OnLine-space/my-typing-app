@@ -1,0 +1,13 @@
+.item{
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s linear; 
+    color: #4213ff;
+    font-size: 36px;
+    font-weight: 700;
+    user-select: none;
+}
+
+.item:hover{
+    transform: scale(105%);
+}

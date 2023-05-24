@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 0 3px;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    animation: glowing 30s linear infinite alternate;
+    background-size: 300%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
+}
+
+.by{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.par{
+    opacity: 0.1;
+    margin: 0;
+    margin-bottom: 10px;
+}

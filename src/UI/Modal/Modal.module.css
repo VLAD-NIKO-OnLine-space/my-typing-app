@@ -1,0 +1,27 @@
+.main{
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+.active{
+    display: flex;
+}
+
+.content{
+    background-color:#0a1224;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}

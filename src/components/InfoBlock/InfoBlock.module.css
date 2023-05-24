@@ -1,0 +1,7 @@
+.main{
+    margin-bottom: 50px;
+    display: flex;
+    width: 680px;
+    justify-content: space-between;
+    align-items: center;
+}
