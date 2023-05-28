@@ -36,7 +36,7 @@ const InfoBlock = observer(({setStartButton, setTime, time, text, setText, toggl
             </Modal>
             <Timer count={time}/>
             <Accuracy text={text}/>
-            <SpeedText/>
+            <SpeedText/>    
             <StartButton onClick={start}>start</StartButton>
         </div>
     );

@@ -19,6 +19,8 @@ export const getRandomParagraph = () => {
 export const getCodeText = () => {
     const codes = [
         'export const getRandomParagraph const item = paragraphs[Math.floor(Math.random()*paragraphs.length)] return [item.split(""), item]',
+        'import React from "react"; import { Routes, Route, Navigate } from "react-router-dom"; import MainPage from "../pages/MainPage/MainPage"; const AppRouter = () => {return (<Routes> <Route path="/typingapp" element={<MainPage/>}></Route> <Route path="*" element={<Navigate to="/typingapp" replace />}/> </Routes> ); }; export default AppRouter;',
+        
         'position: absolute; width: 15%; height: 100%; top: 0; right: 0; background-color: #0a1224; opacity: 0.8; transform: skew(-35deg) translateX(50px); filter: blur(10px); display: none; justify-content: center; align-items: center; z-index: 50;'
     ]
     const item = codes[Math.floor(Math.random()*codes.length)]

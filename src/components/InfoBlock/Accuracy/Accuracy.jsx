@@ -14,5 +14,4 @@ const Accuracy = observer(({ text }) => {
         </div>
     );
 }); 
-//                          разобраться с вычислением точности!!!
 export default Accuracy;

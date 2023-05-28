@@ -4,4 +4,33 @@
     width: 680px;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 850px) {
+    .main{
+        width: 520px;
+    }
+}
+
+@media (max-width: 650px) {
+    .main{
+        width: 400px;
+    }
+}
+
+@media (max-width: 650px){
+    .main{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 28px 26px;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .main {
+        max-width: 130px;
+        
+    }
 }

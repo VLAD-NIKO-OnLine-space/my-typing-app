@@ -11,3 +11,16 @@
 .item:hover{
     transform: scale(105%);
 }
+
+
+@media (max-width: 650px) {
+    .item{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .item{
+        font-size: 20px;
+    }
+}

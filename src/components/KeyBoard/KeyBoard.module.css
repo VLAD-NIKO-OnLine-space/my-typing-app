@@ -4,6 +4,9 @@
     gap: 10px;
     user-select: none;
     margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .keyboardRow{
@@ -74,6 +77,29 @@
     100%{
         opacity: 0.3;
         background-color: transparent;
+    }
+}
+
+
+
+@media (max-width: 850px) {
+    .keyboard{
+        gap: 0 5px;
+        transform: scale(80%);
+    }
+}
+
+@media (max-width: 650px) {
+    .keyboard{
+        gap: 0 5px;
+        transform: scale(60%);
+    }
+}
+
+@media (max-width: 650px) {
+    .keyboard{
+        transform: scale(50%);
+        display: none;
     }
 }
 
